@@ -1,0 +1,64 @@
+/* Page Base */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f2f2f2;
+  padding: 20px;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+/* Content Box */
+.container {
+  width: 90%;
+  max-width: 800px;
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Headings */
+h1 {
+  text-align: center;
+  color: #222;
+  margin-bottom: 25px;
+}
+
+h3 {
+  color: #333;
+  margin-top: 30px;
+  border-left: 5px solid #4e8cff;
+  padding-left: 10px;
+}
+
+/* Lists */
+ol,
+ul,
+dl {
+  margin-left: 25px;
+  line-height: 1.6;
+  color: #444;
+}
+
+/* Glossary */
+dt {
+  font-size: 18px;
+  margin-top: 15px;
+}
+
+dd {
+  margin-left: 15px;
+  color: #555;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .container {
+    padding: 20px;
+  }
+
+  h1 {
+    font-size: 22px;
+  }
+}

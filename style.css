@@ -1,0 +1,106 @@
+/* Reset defaults */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Body styling */
+body {
+  background: linear-gradient(135deg, #f3f8ff, #d6ecff);
+  color: #222;
+  padding: 30px;
+  line-height: 1.6;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/* Header */
+h1 {
+  text-align: center;
+  color: #0056b3;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+/* Section Headings */
+h3 {
+  color: #004080;
+  margin-top: 25px;
+  margin-bottom: 10px;
+  padding-left: 8px;
+  border-left: 4px solid #0078d4;
+}
+
+/* Ordered and Unordered Lists */
+ol,
+ul {
+  margin-left: 40px;
+  margin-bottom: 15px;
+  background-color: #ffffff;
+  padding: 15px 25px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+ol li,
+ul li {
+  margin-bottom: 8px;
+  color: #333;
+  transition: 0.3s ease;
+}
+
+ol li:hover,
+ul li:hover {
+  color: #0078d4;
+  transform: translateX(4px);
+}
+
+/* Description List (Glossary Section) */
+dl {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  margin-top: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+dt {
+  color: #0078d4;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+dd {
+  margin-left: 20px;
+  color: #444;
+  text-align: justify;
+}
+
+/* Emoji Styling */
+h3::before {
+  margin-right: 6px;
+}
+
+/* Hover Accent for Sections */
+h3:hover {
+  color: #0056b3;
+  transition: 0.3s ease;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  body {
+    padding: 20px;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  ol,
+  ul {
+    margin-left: 20px;
+  }
+}
